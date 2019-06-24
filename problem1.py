@@ -23,6 +23,6 @@ def sum_until(number, limit):
 
 sum_first = sum_until(FIRST, LIMIT)
 sum_second = sum_until(SECOND, LIMIT)
-sum_common = sum_until(FIRST*SECOND, LIMIT)
+sum_common = sum_until(FIRST * SECOND, LIMIT)
 
 print(sum_first + sum_second - sum_common)
